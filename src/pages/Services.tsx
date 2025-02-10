@@ -24,8 +24,7 @@ const Services: React.FC = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-xl text-gray-300 max-w-2xl mx-auto"
             >
-              Professional auto detailing services tailored to your vehicle's needs,
-              with specialized packages for Tesla and luxury vehicles.
+              Professional auto detailing services tailored to your vehicle's needs, with specialized packages for Tesla and specialty vehicles.
             </motion.p>
           </div>
         </div>

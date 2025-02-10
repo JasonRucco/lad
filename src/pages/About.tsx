@@ -62,7 +62,7 @@ const About: React.FC = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-xl text-gray-300 max-w-2xl mx-auto"
             >
-              Premium auto detailing services with specialized EV expertise, serving Wilkes Barre and Philadelphia
+              Premium auto detailing services with specialized EV expertise, serving Wilkes-Barre and Philadelphia
             </motion.p>
           </div>
         </div>
@@ -80,7 +80,7 @@ const About: React.FC = () => {
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  Founded with a passion for automotive excellence, Lovelace Auto Detailing has emerged as a dedicated provider of premium vehicle care. Our journey began with a simple mission: to provide unparalleled detailing services that meet the exacting standards of luxury and performance vehicle owners.
+                  Founded with a passion for automotive excellence, Lovelace Auto Detailing has emerged as a dedicated provider of premium vehicle care. Our journey began with a simple mission: to provide unparalleled detailing services that meet the exacting standards of all discerning vehicle owners, regardless of make or model.
                 </p>
                 <p>
                   As electric vehicle specialists, we've developed extensive expertise in handling the unique requirements of EVs while maintaining our commitment to environmental responsibility through eco-friendly detailing practices.
