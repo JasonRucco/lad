@@ -9,12 +9,42 @@ const Contact: React.FC = () => {
     phone: '',
     carModel: '',
     message: '',
-    location: 'Wilkes-Barre'
+    location: 'wilkes-barre'
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [submitStatus, setSubmitStatus] = useState('');
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log(formData);
+    setSubmitStatus('submitting');
+
+    try {
+      const response = await fetch('YOUR_PHP_FILE_URL_HERE', { // Replace with your actual PHP file URL
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: new URLSearchParams(formData).toString(),
+      });
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        // Optionally clear the form
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          carModel: '',
+          message: '',
+          location: 'Wilkes-Barre'
+        });
+      } else {
+        setSubmitStatus('error');
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+      setSubmitStatus('error');
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -156,6 +186,18 @@ const Contact: React.FC = () => {
                   <Send size={20} />
                   <span>Send Message</span>
                 </button>
+
+                {submitStatus === 'submitting' && (
+                  <p className="text-center text-gray-600">Submitting...</p>
+                )}
+
+                {submitStatus === 'success' && (
+                  <p className="text-center text-green-600">Thank you! Your message has been sent.</p>
+                )}
+
+                {submitStatus === 'error' && (
+                  <p className="text-center text-red-600">Oops! Something went wrong. Please try again.</p>
+                )}
               </form>
             </motion.div>
 
@@ -192,7 +234,7 @@ const Contact: React.FC = () => {
                   <div className="flex items-start space-x-4">
                     <MapPin className="w-6 h-6 text-yellow-500 flex-shrink-0" />
                     <p className="text-gray-600">
-                      Wilkes-Barre/Philadelphia & Surrounding Areas<br />
+                      Wilkes-Barre/Philadelphia &amp; Surrounding Areas<br />
                       By Appointment
                     </p>
                   </div>
