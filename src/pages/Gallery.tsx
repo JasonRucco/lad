@@ -10,9 +10,10 @@ interface CarouselProps {
   onNext: () => void;
   onPrev: () => void;
   isModal?: boolean;
+  groupId: string;
 }
 
-const Carousel: React.FC<CarouselProps> = ({ files, currentIndex, onNext, onPrev, isModal = false }) => {
+const Carousel: React.FC<CarouselProps> = ({ files, currentIndex, onNext, onPrev, isModal = false, groupId }) => {
   const getFullUrl = (filename: string) => {
     return `https://equilibrium-it.com/assets/images/gallery/${filename}`;
   };
@@ -162,6 +163,7 @@ const Gallery: React.FC = () => {
                     currentIndex={currentIndexes[group.GROUPID]}
                     onNext={() => handleNext(group.GROUPID, group.files.length)}
                     onPrev={() => handlePrev(group.GROUPID, group.files.length)}
+                    groupId={group.GROUPID}
                   />
                 </div>
               </motion.div>
@@ -186,6 +188,7 @@ const Gallery: React.FC = () => {
               onNext={() => handleNext(selectedGroup.GROUPID, selectedGroup.files.length)}
               onPrev={() => handlePrev(selectedGroup.GROUPID, selectedGroup.files.length)}
               isModal
+              groupId={selectedGroup.GROUPID}
             />
           </div>
         </div>
