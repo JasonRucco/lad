@@ -86,7 +86,7 @@ const About: React.FC = () => {
                   As electric vehicle specialists, we've developed extensive expertise in handling the unique requirements of EVs while maintaining our commitment to environmental responsibility through eco-friendly detailing practices.
                 </p>
                 <p>
-                  Today, we proudly serve clients across Wilkes Barre and Philadelphia, combining traditional detailing craftsmanship with modern techniques and premium products to deliver exceptional results for every vehicle we touch.
+                  Today, we proudly serve clients across Wilkes-Barre and Philadelphia, combining traditional detailing craftsmanship with modern techniques and premium products to deliver exceptional results for every vehicle we touch.
                 </p>
               </div>
             </motion.div>
