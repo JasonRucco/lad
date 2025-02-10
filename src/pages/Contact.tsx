@@ -219,11 +219,11 @@ const Contact: React.FC = () => {
                     <span>267-356-1409</span>
                   </a>
                   <a
-                    href="mailto:lovelacedetail@gmail.com"
+                    href="mailto:contact@lovelaceautodetailing.com"
                     className="flex items-center space-x-4 text-gray-600 hover:text-black transition-colors"
                   >
                     <Mail className="w-6 h-6 text-yellow-500" />
-                    <span>lovelacedetail@gmail.com</span>
+                    <span>contact@lovelaceautodetailing.com</span>
                   </a>
                 </div>
               </div>

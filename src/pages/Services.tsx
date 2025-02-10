@@ -101,7 +101,7 @@ const Services: React.FC = () => {
               Call Now
             </a>
             <a
-              href="mailto:lovelacedetail@gmail.com"
+              href="mailto:contact@lovelaceautodetailing.com"
               className="bg-white text-black px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors"
             >
               Email Us
