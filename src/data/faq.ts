@@ -11,7 +11,7 @@ export const faqCategories = [
       {
         id: 'how-long',
         question: 'How long does a detailing service take?',
-        answer: 'Service duration varies based on the package and your vehicle\'s condition. A basic detail typically takes 4-6 hours, while full detail packages may require 8-12 hours for optimal results.'
+        answer: 'Service duration varies based on the package and your vehicle\'s condition. A basic detail typically takes 2-3 hours, while full detail packages may require 3-6 hours for optimal results.'
       },
       {
         id: 'how-often',
@@ -53,12 +53,12 @@ export const faqCategories = [
       {
         id: 'book-appointment',
         question: 'How do I book an appointment?',
-        answer: 'You can book an appointment by calling us at 267-356-1409 or using our contact form. We\'ll discuss your needs and schedule a convenient time at either our Wilkes Barre or Philadelphia location.'
+        answer: 'You can book an appointment by calling us at 267-356-1409 or using our contact form. We\'ll discuss your needs and schedule a convenient time at either our Wilkes-Barre or Philadelphia location.'
       },
       {
         id: 'payment-methods',
         question: 'What payment methods do you accept?',
-        answer: 'We accept all major credit cards, cash, and digital payment methods including Apple Pay and Google Pay. Payment is required upon completion of service.'
+        answer: 'We accept cash and digital payment methods including Apple Pay, Google Pay, CashApp, and Venmo. Payment is required upon completion of service.'
       }
     ]
   },
