@@ -40,6 +40,7 @@ const Carousel: React.FC<CarouselProps> = ({ files, currentIndex, onNext, onPrev
                 src={getFullUrl(files[currentIndex])}
                 className={mediaClass}
                 controls
+                controlsList="nodownload"
                 autoPlay={isModal}
                 muted
               />
@@ -113,6 +114,10 @@ const Gallery: React.FC = () => {
     }));
   };
 
+  const handleGroupClick = (group: GalleryItem) => {
+    setSelectedGroup(group);
+  };
+
   return (
     <div className="bg-gray-50">
       {/* Hero Section */}
@@ -149,15 +154,16 @@ const Gallery: React.FC = () => {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer"
-                onClick={() => setSelectedGroup(group)}
+                className="bg-white rounded-lg shadow-lg overflow-hidden"
               >
-                <Carousel
-                  files={group.files}
-                  currentIndex={currentIndexes[group.GROUPID]}
-                  onNext={() => handleNext(group.GROUPID, group.files.length)}
-                  onPrev={() => handlePrev(group.GROUPID, group.files.length)}
-                />
+                <div onClick={() => handleGroupClick(group)}>
+                  <Carousel
+                    files={group.files}
+                    currentIndex={currentIndexes[group.GROUPID]}
+                    onNext={() => handleNext(group.GROUPID, group.files.length)}
+                    onPrev={() => handlePrev(group.GROUPID, group.files.length)}
+                  />
+                </div>
               </motion.div>
             ))}
           </div>
