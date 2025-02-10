@@ -57,5 +57,34 @@ export const services = [
       'Software-safe cleaning methods'
     ],
     'image': 'https://images.unsplash.com/photo-1560958089-b8a1929cea89?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+  },
+  {
+    'id': 'specialty-vehicles',
+    'title': 'Specialty Vehicle Detailing',
+    'description': 'Detailing services for motorcycles, boats, RVs, off-road vehicles, and more. Prices vary based on size and condition.',
+    'price': 'Prices Vary',
+    'features': [
+      'Customized cleaning solutions',
+      'Exterior wash and wax',
+      'Interior detailing',
+      'Engine cleaning',
+      'Surface protection',
+      'Restoration services'
+    ],
+    'image': 'https://images.unsplash.com/photo-1541443179009-3793b1494489?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJ2JTIwb3V0ZG9vcnN8ZW58MHx8MHx8fDA%3D'
+  },
+  {
+    'id': 'subscription-services',
+    'title': 'Subscription Detailing Services',
+    'description': 'Keep your vehicle looking its best with our convenient subscription plans. Choose from monthly, quarterly, or seasonal detailing services.',
+    'price': 'Contact for Pricing',
+    'features': [
+      'Monthly and Quarterly Detail Plans',
+      'Seasonal Packages: Post-winter deep clean, summer sun protection, fall prep for winter, and winter salt and cold protection.',      
+      'Corporate or Fleet Servicing Packages',
+      'Priority Scheduling',
+      'Customizable Packages'
+    ],
+    'image': 'https://images.unsplash.com/photo-1551721434-8495944e3579?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   }
 ]
