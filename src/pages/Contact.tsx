@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
     setSubmitStatus('submitting');
 
     try {
-      const response = await fetch('YOUR_PHP_FILE_URL_HERE', { // Replace with your actual PHP file URL
+      const response = await fetch('https://www.lovelaceautodetailing.com/scripts/contact_form_handler.php', { // Replace with your actual PHP file URL
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
