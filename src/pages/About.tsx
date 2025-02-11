@@ -43,7 +43,7 @@ const About: React.FC = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
           style={{
-            backgroundImage: 'url("https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80")',
+            backgroundImage: 'url("https://www.lovelaceautodetailing.com/assets/images/about_hero_bkg.avif")',
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -97,7 +97,7 @@ const About: React.FC = () => {
               className="relative"
             >
               <img
-                src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                src="https://www.lovelaceautodetailing.com/assets/images/about_us.avif"
                 alt="Professional car detailing"
                 className="rounded-lg shadow-lg"
               />

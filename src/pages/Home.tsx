@@ -11,7 +11,7 @@ const Home: React.FC = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url("https://images.unsplash.com/photo-1601362840469-51e4d8d58785?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80")',
+            backgroundImage: 'url("https://www.lovelaceautodetailing.com/assets/images/home_hero_bkg.avif")',
             opacity: 0.5
           }}
         />

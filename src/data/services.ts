@@ -12,7 +12,7 @@ export const services = [
       'Wheel and tire detail',
       'Exterior glass cleaning and treatment'
     ],
-    'image': 'https://images.unsplash.com/photo-1607860108855-64acf2078ed9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+    'image': 'https://www.lovelaceautodetailing.com/assets/images/exterior-services.jpg'
   },
   {
     'id': 'interior-detail',
@@ -27,7 +27,7 @@ export const services = [
       'Carpet shampooing',
       'Air vent cleaning'
     ],
-    'image': 'https://images.unsplash.com/photo-1507136566006-cfc505b114fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+    'image': 'https://www.lovelaceautodetailing.com/assets/images/interior-services.jpg'
   },
   {
     'id': 'full-detail',
@@ -41,7 +41,7 @@ export const services = [
       'Deep-cleaning and stain removal',
       'Enhanced vehicle appearance and longevity'
     ],
-    'image': 'https://images.unsplash.com/photo-1600045364850-2c3a1f6c5906?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+    'image': 'https://www.lovelaceautodetailing.com/assets/images/full-services.jpg'
   },
   {
     'id': 'tesla-package',
@@ -56,7 +56,7 @@ export const services = [
       'Charging port maintenance',
       'Software-safe cleaning methods'
     ],
-    'image': 'https://images.unsplash.com/photo-1560958089-b8a1929cea89?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+    'image': 'https://www.lovelaceautodetailing.com/assets/images/ev-services.jpg'
   },
   {
     'id': 'specialty-vehicles',
@@ -71,7 +71,7 @@ export const services = [
       'Surface protection',
       'Restoration services'
     ],
-    'image': 'https://images.unsplash.com/photo-1541443179009-3793b1494489?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJ2JTIwb3V0ZG9vcnN8ZW58MHx8MHx8fDA%3D'
+    'image': 'https://www.lovelaceautodetailing.com/assets/images/specialty-vehicles.jpg'
   },
   {
     'id': 'subscription-services',
@@ -85,6 +85,6 @@ export const services = [
       'Priority Scheduling',
       'Customizable Packages'
     ],
-    'image': 'https://images.unsplash.com/photo-1551721434-8495944e3579?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    'image': 'https://www.lovelaceautodetailing.com/assets/images/fleet-services.jpg'
   }
 ]

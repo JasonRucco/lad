@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-20">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <img src="https://equilibrium-it.com/assets/images/logo.png" alt="Lovelace Auto Detailing" className="h-12 w-auto" />
+              <img src="https://www.lovelaceautodetailing.com/assets/images/logo.png" alt="Lovelace Auto Detailing" className="h-12 w-auto" />
               <span className="text-xl font-bold">Lovelace Auto Detailing</span>
             </Link>
           </div>

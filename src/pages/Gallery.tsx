@@ -13,9 +13,9 @@ interface CarouselProps {
   groupId: string;
 }
 
-const Carousel: React.FC<CarouselProps> = ({ files, currentIndex, onNext, onPrev, isModal = false, groupId }) => {
+const Carousel: React.FC<CarouselProps> = ({ files, currentIndex, onNext, onPrev, isModal = false }) => {
   const getFullUrl = (filename: string) => {
-    return `https://equilibrium-it.com/assets/images/gallery/${filename}`;
+    return `https://www.lovelaceautodetailing.com/assets/images/gallery/${filename}`;
   };
 
   const isVideo = (filename: string) => filename.toLowerCase().endsWith('.mp4');
